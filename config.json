@@ -2,8 +2,7 @@
   "detector": "venue_date",
   "movie": "Spider-Man: Brand New Day",
   "requested_date": "20260730",
-  "venue_code": ["PCAN","PVPZ"],
-  "venue_label": "PVR: VR Chennai, Anna Nagar",
-  "url_template": "https://in.bookmyshow.com/movies/chennai/spiderman-brand-new-day/buytickets/ET00447840/20260802",
-  "min_references": 10
+  "venue_codes": ["PCAN","PVPZ","PABC"],
+  "venue_label": "PVR: VR Chennai, Anna Nagar & Others",
+  "url_template": "https://in.bookmyshow.com/movies/chennai/spiderman-brand-new-day/buytickets/ET00447840/{date}",
 }
