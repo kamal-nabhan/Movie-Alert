@@ -203,7 +203,8 @@ def is_available_venue_date(page_text, cfg):
     """
     date = cfg["requested_date"]
     codes = cfg.get("venue_codes") or [cfg["venue_code"]]
-    return any("/{}/{}".format(code, date) in page_text for code in codes)
+    page_lower = page_text.lower()
+    return any(f"/{code.lower()}/{date}" in page_lower for code in codes)
 
 
 def is_available(page_text, cfg):
